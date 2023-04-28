@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-right: 30px;
+}
+
+.heading {
+  margin-bottom: 0px;
+}
+
+.image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  background-color: #ffffff;
+  padding-top: 10px;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+.time {
+  color: #00d9f5;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.text {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.icon-text {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+}
+.limit {
+  font-size: 20px;
+  font-weight: 600;
+}
+.inc-dec-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.limit-button {
+  background-image: linear-gradient(to right, #1fc78f, #00d9f5);
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    height: 100vh;
+  }
+  .clock-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .buttons-container {
+    width: 40%;
+  }
+}
+/*Hex: 
+Hex: 
+Hex: #1e293b
+Hex: #0f172a
+Hex: 
+Hex: */
